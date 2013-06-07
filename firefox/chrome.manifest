@@ -1,0 +1,7 @@
+content   cuwebctmulti                 chrome/content/
+skin      cuwebctmulti   classic/1.0   chrome/skin/
+locale    cuwebctmulti   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://cuwebctmulti/content/ff-overlay.xul
+style chrome://global/content/customizeToolbar.xul chrome://cuwebctmulti/skin/overlay.css

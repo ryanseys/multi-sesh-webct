@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://cuwebctmulti/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://cuwebctmulti/locale/overlay.dtd">
+<overlay id="cuwebctmulti-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="cuwebctmulti-strings" src="chrome://cuwebctmulti/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <toolbarpalette id="BrowserToolbarPalette">
+  <toolbarbutton id="cuwebctmulti-toolbar-button" class="toolbarbutton-1 chromeclass-toolbar-additional"
+    label="&cuwebctmultiToolbarButton.label;" tooltiptext="&cuwebctmultiToolbarButton.tooltip;"
+    oncommand="cuwebctmulti.onToolbarButtonCommand()"/>
+  </toolbarpalette>
+
+
+
+</overlay>

@@ -1,0 +1,8 @@
+<!ENTITY cuwebctmulti.label "Your localized menuitem">
+<!ENTITY cuwebctmultiContext.label "Your Menuitem">
+<!ENTITY cuwebctmultiContext.accesskey "Y">
+<!ENTITY cuwebctmultiToolbarButton.label "Your Toolbar Button">
+<!ENTITY cuwebctmultiToolbarButton.tooltip "Open new CU WebCT Session">
+<!ENTITY cuwebctmultiSidebar.label "Your Sidebar">
+<!ENTITY cuwebctmultiToolbar.name  "example">
+<!ENTITY cuwebctmultiToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &cuwebctmultiToolbar.name;">

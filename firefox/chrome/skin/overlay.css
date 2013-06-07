@@ -1,0 +1,16 @@
+/* This is just an example.  You shouldn't do this. */
+#cuwebctmulti-hello
+{
+  color: red ! important;
+}
+#cuwebctmulti-toolbar-button
+{
+  list-style-image: url("chrome://cuwebctmulti/skin/icon.png");
+  -moz-image-region: rect(0px 16px 16px 0px);
+}
+[iconsize="small"] #cuwebctmulti-toolbar-button
+{
+   list-style-image: url("chrome://cuwebctmulti/skin/icon.png");
+  
+     -moz-image-region: rect(0px 16px 16px 0px);
+}
