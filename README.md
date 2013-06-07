@@ -1,9 +1,13 @@
 multi-sesh-webct
 ================
 
+[Chrome Extension](https://chrome.google.com/webstore/detail/carleton-university-webct/kfdfjhjbablhaahkolidaghphifjeaig?hl=en)
+
+[Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/carleton-university-webct-m/)
+
 A Firefox &amp; Chrome extension that enables multiple sessions in Carleton U’s WebCT
 
-For use by specifically Carleton University students, this extension will allow you to open multiple sessions of WebCT within the same browser session. Usually WebCT permits a maximum of ONE session open at a time. 
+For use by specifically Carleton University students, this extension will allow you to open multiple sessions of WebCT within the same browser session. Usually WebCT permits a maximum of ONE session open at a time.
 
 ### How To Use
 
@@ -23,6 +27,6 @@ Please report any additional errors or bugs you find to me!
 
 ### Changelog
 
-1.0 -  Initial release. 
+1.0 -  Initial release.
 
 1.1 - Added an option to auto-fix session error pages when they are encountered.
