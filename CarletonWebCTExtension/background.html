@@ -1,0 +1,29 @@
+<script>
+
+chrome.browserAction.onClicked.addListener(function(tab) {
+  	var url = "http://lms.carleton.ca/webct";
+  	chrome.cookies.remove({"url": url, "name": "uid2"});
+  	window.open("http://lms.carleton.ca");
+});
+
+chrome.extension.onRequest.addListener(
+  function(request, sender, sendResponse) {
+  
+    if (request.greeting == "title") {
+      sendResponse({titleReturned: sender.tab.title});
+      }
+    else if (request.greeting == "fix") {
+    	chrome.tabs.remove(sender.tab.id);
+    	var url = "http://lms.carleton.ca/webct";
+  		chrome.cookies.remove({"url": url, "name": "uid2"});
+  		window.open("http://lms.carleton.ca");
+    	sendResponse({titleReturned: "fixed"});
+    	}
+    else if (request.greeting == "setting") {
+    	sendResponse({titleReturned: localStorage["setting"]});
+    }
+    else
+      sendResponse({}); // snub them.
+  });
+
+</script>
